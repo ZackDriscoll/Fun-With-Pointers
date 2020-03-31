@@ -43,7 +43,5 @@ int main()
 	cout << "\nMy age from the pointer p_age says: " << p_age << endl;
 	cout << "\nMy age from the from dereferencing the pointer p_age says: " << *p_age << endl;
 
-
-
 	return 0;
 }
