@@ -14,7 +14,7 @@ int main()
 	int age = 21;
 	
 
-	//************************ Create the ref to age ***************************
+	//************************ Create a ref to age ***************************
 
 	//A ref will never be different from what it is referencing
 	int &r_age = age;
@@ -40,6 +40,8 @@ int main()
 
 	//Print values
 	cout << "\nMy age from the variable age says: " << age << endl;
+	cout << "\nThe address of age is : " << &age << endl;
+	cout << "\nThe pointer p_age has its own address which is: " << &p_age << endl;
 	cout << "\nMy age from the pointer p_age says: " << p_age << endl;
 	cout << "\nMy age from the from dereferencing the pointer p_age says: " << *p_age << endl;
 
